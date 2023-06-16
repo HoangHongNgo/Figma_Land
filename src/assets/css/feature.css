@@ -4,13 +4,10 @@
 
 .feature {
   margin-top: 180px;
+  padding-top: 81px;
 
   display: flex;
   flex-direction: column;
-}
-
-.feature__pre-title {
-  margin-top: 81px;
 }
 
 .feature__title {
@@ -19,7 +16,7 @@
 
 .feature__sub-title {
   margin: 27px auto 0;
-  width: 298px;
+  max-width: 298px;
   height: 40px;
 }
 
@@ -27,6 +24,7 @@
   display: flex;
   align-content: flex-start;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 52px;
 
   width: 100%;
@@ -41,7 +39,8 @@
   align-content: flex-start;
   gap: 20px;
 
-  width: 255px;
+  max-width: 255px;
+  min-width: 200px;
 
   transition: transform 0.2s ease;
 }

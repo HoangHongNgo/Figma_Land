@@ -25,6 +25,15 @@
     />
     <link rel="stylesheet" href="./assets/css/pricing.css" type="text/css" />
     <link rel="stylesheet" href="./assets/css/contact.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/input.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/text.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/button.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="./assets/css/contact-info.css"
+      type="text/css"
+    />
     <!-- end css main -->
   </head>
   <body>
@@ -321,10 +330,10 @@
               <h5 class="text text--gray">Organize across all apps by hand</h5>
             </div>
             <div class="pricing__card__price">
-              <h1 class="text text--dark">0</h1>
+              <p class="pricing__card__price-num text text--dark">0</p>
               <div class="col">
-                <h3 class="text text--dark">$</h3>
-                <h5 class="text text--gray">Per Month</h5>
+                <p class="pricing__card__price-unit text text--dark">$</p>
+                <p class="pricing__card__duration text text--gray">Per Month</p>
               </div>
             </div>
             <button
@@ -339,10 +348,10 @@
               <h5 class="text text--gray">Organize across all apps by hand</h5>
             </div>
             <div class="pricing__card__price">
-              <h1 class="text text--dark">10</h1>
+              <p class="pricing__card__price-num text text--dark">10</p>
               <div class="col">
-                <h3 class="text text--dark">$</h3>
-                <h5 class="text text--gray">Per Month</h5>
+                <p class="pricing__card__price-unit text text--dark">$</p>
+                <p class="pricing__card__duration text text--gray">Per Month</p>
               </div>
             </div>
             <button
@@ -357,10 +366,12 @@
               <h5 class="text text--light">Organize across all apps by hand</h5>
             </div>
             <div class="pricing__card__price">
-              <h1 class="text text--light">99</h1>
+              <p class="pricing__card__price-num text text--light">99</p>
               <div>
-                <h3 class="text text--light">$</h3>
-                <h5 class="text text--light">Per Month</h5>
+                <p class="pricing__card__price-unit text text--light">$</p>
+                <p class="pricing__card__duration text text--light">
+                  Per Month
+                </p>
               </div>
             </div>
             <button
@@ -409,42 +420,106 @@
               Send
             </button>
           </div>
-          <div class="contact__info">
-            <div class="contact__info__row">
+          <div class="contact-info">
+            <div class="contact-info__row">
               <img
                 src="/assets/images/contact/icon_1.svg"
                 alt="location icon"
               />
-              <h5 class="text text--light">
+              <p class="text text--light">
                 6386 Spring St undefined Anchorage, Georgia 12473 United States
-              </h5>
+              </p>
             </div>
-            <div class="contact__info__row">
+            <div class="contact-info__row">
               <img
                 src="/assets/images/contact/icon_2.svg"
                 alt="phone number icon"
               />
-              <h5 class="text text--light">(843) 555-0130</h5>
+              <p class="text text--light">(843) 555-0130</p>
             </div>
-            <div class="contact__info__row">
+            <div class="contact-info__row">
               <img src="/assets/images/contact/icon_3.svg" alt="email icon" />
-              <h5 class="text text--light">willie.jennings@example.com</h5>
+              <p class="text text--light">willie.jennings@example.com</p>
             </div>
-            <div class="contact__info__last-row">
-              <img src="/assets/images/contact/icon_4.svg" alt="tweet icon" />
-              <img
-                src="/assets/images/contact/icon_5.svg"
-                alt="facebook icon"
-              />
-              <img
-                src="/assets/images/contact/icon_6.svg"
-                alt="linkedin icon"
-              />
+            <div class="contact-info__social-media">
+              <a href="https://twitter.com/">
+                <img src="/assets/images/contact/icon_4.svg" alt="tweet icon" />
+              </a>
+              <a href="https://www.facebook.com/">
+                <img
+                  src="/assets/images/contact/icon_5.svg"
+                  alt="facebook icon"
+                />
+              </a>
+              <a href="https://www.linkedin.com/">
+                <img
+                  src="/assets/images/contact/icon_6.svg"
+                  alt="linkedin icon"
+                />
+              </a>
             </div>
           </div>
         </div>
       </section>
       <!-- End contact section -->
     </div>
+    <!-- Start footer -->
+    <footer class="footer">
+      <div class="footer__page">
+        <h3 class="text text--dark">Pages</h3>
+        <ul class="footer__page___list">
+          <li><a href="" class="text text--dark">Eleanor Edwards</a></li>
+          <li><a href="" class="text text--dark">Ted Robertson</a></li>
+          <li><a href="" class="text text--dark">Annette Russell</a></li>
+          <li><a href="" class="text text--dark">Jennie Mckinney</a></li>
+          <li><a href="" class="text text--dark">Gloria Richards</a></li>
+        </ul>
+      </div>
+      <div class="footer__map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1925.1397434389835!2d-149.8646000229361!3d61.1503321755469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x56c899d638f6b8b9%3A0x8001486daef0fbc!2s6386%20Spring%20St%2C%20Anchorage%2C%20AK%2099518%2C%20USA!5e0!3m2!1sen!2s!4v1686882689691!5m2!1sen!2s"
+          width="472px"
+          height="247px"
+          style="border-radius: 22px"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="contact-info">
+        <div class="contact-info__row">
+          <img src="/assets/images/contact/icon_1.svg" alt="location icon" />
+          <address class="text text--grey">
+            6386 Spring St undefined Anchorage, Georgia 12473 United States
+          </address>
+        </div>
+        <div class="contact-info__row">
+          <img
+            src="/assets/images/contact/icon_2.svg"
+            alt="phone number icon"
+          />
+          <p class="text text--grey">(843) 555-0130</p>
+        </div>
+        <div class="contact-info__row">
+          <img src="/assets/images/contact/icon_3.svg" alt="email icon" />
+          <p class="text text--grey">willie.jennings@example.com</p>
+        </div>
+        <div class="contact-info__social-media">
+          <a href="https://twitter.com/">
+            <img src="/assets/images/contact/icon_4.svg" alt="tweet icon" />
+          </a>
+          <a href="https://www.facebook.com/">
+            <img src="/assets/images/contact/icon_5.svg" alt="facebook icon" />
+          </a>
+          <a href="https://www.linkedin.com/">
+            <img src="/assets/images/contact/icon_6.svg" alt="linkedin icon" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
+
+    <!-- Scroll listener -->
+    <script src="/js/scroll.js"></script>
   </body>
 </html>

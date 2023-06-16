@@ -85,42 +85,6 @@
   height: 34.53px;
 }
 
-.contact__info {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-
-  width: 264px;
-}
-
-.contact__info__row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 20.67px;
-  flex-wrap: nowrap;
-
-  transition: transform 0.2s ease;
-}
-
-.contact__info__row:hover {
-  transform: scale(1.1);
-}
-
-.contact__info__last-row {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 33px;
-
-  margin-top: 77px;
-}
-
-.contact__info__last-row > img {
-  transition: transform 0.2s ease;
-}
-
-.contact__info__last-row > img:hover {
-  transform: scale(1.5);
+.contact .contact-info__social-media {
+  margin-top: 45px;
 }

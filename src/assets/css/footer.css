@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 55px;
+
+  padding: 120px 0;
+  box-sizing: border-box;
+}
+
+.footer__page {
+  width: 186px;
+}
+
+.footer__page___list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  margin-top: 25px;
+}
+
+.footer__map {
+  width: 472px;
+  height: 247px;
+}
+
+.footer .contact-info__social-media {
+  margin-top: 20px;
+}

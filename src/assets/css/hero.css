@@ -5,26 +5,30 @@
 .hero {
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
+  margin-top: 156px;
   gap: 86.43px;
 }
 
 .hero__bg {
   z-index: 1;
   position: absolute;
-  top: 0px;
+  top: 0;
 }
 
 .hero__bg__top {
   position: absolute;
-  width: 100vw;
   left: -50%;
+
+  width: 100vw;
+  max-height: 900px;
+
   z-index: 2;
 }
 
 .hero__bg__bottom {
   position: absolute;
   width: 100vw;
+  max-height: 1050px;
   left: -50%;
   top: 58px;
   z-index: 1;
