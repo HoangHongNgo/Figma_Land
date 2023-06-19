@@ -21,7 +21,7 @@
 .testimonial__message {
   margin-top: 60px;
 
-  width: 683px;
+  max-width: 683px;
 }
 
 .testimonial__client {

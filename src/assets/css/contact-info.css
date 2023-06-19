@@ -1,0 +1,48 @@
+/*-----------------------------------------*\
+  #CONTACT-INFO CLASSES
+\*-----------------------------------------*/
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  width: 264px;
+}
+
+.contact-info .text {
+  font-weight: var(--fw-bold);
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.contact-info__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20.67px;
+  flex-wrap: nowrap;
+
+  transition: transform 0.2s ease;
+}
+
+.contact-info__row:hover {
+  transform: scale(1.1);
+}
+
+.contact-info__social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 33px;
+}
+
+.contact-info__social-media img {
+  transition: transform 0.2s ease;
+}
+
+.contact-info__social-media img:hover {
+  transform: scale(1.5);
+}

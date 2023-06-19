@@ -1,0 +1,29 @@
+/*-----------------------------------------*\
+  #BUTTON CLASSES
+\*-----------------------------------------*/
+
+.btn {
+  border-radius: 35px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn--light {
+  background-color: var(--light-color);
+}
+
+.btn--primary {
+  background-color: var(--primary-color);
+}
+
+.btn--secondary {
+  background-color: var(--secondary-color);
+}

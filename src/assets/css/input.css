@@ -1,0 +1,15 @@
+/*-----------------------------------------*\
+  #INPUT CLASSES
+\*-----------------------------------------*/
+
+.input {
+  border: 1px solid #e8e8e8;
+  border-radius: 39px;
+  height: 54px;
+  transition: transform 0.2s ease;
+  box-sizing: border-box;
+}
+
+.input:hover {
+  transform: scale(1.1);
+}

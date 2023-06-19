@@ -78,93 +78,16 @@ h5 {
   letter-spacing: 0.1px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /*-----------------------------------------*\
   #GLOBAL CLASSES
 \*-----------------------------------------*/
 
 .content {
   background-color: var(--bg-light-color);
-}
-
-.text {
-  font-family: var(--primary-font);
-}
-
-.text--center {
-  width: 100%;
-  text-align: center;
-}
-
-.text--light {
-  color: var(--light-color);
-}
-
-.text--dark {
-  color: var(--dark-color);
-}
-
-.text--primary {
-  color: var(--primary-color);
-}
-
-.text--secondary {
-  color: var(--secondary-color);
-}
-
-.text--gray {
-  color: var(--gray-color);
-}
-
-.text--small {
-  font-weight: var(--fw-regular);
-  font-size: 16px;
-  line-height: 16px;
-  letter-spacing: 0.2px;
-}
-
-.text--big {
-  font-weight: var(--fw-bold);
-  font-size: 22px;
-  line-height: 33px;
-  letter-spacing: 0.1px;
-}
-
-.input {
-  border: 1px solid #e8e8e8;
-  border-radius: 39px;
-  height: 54px;
-  transition: transform 0.2s ease;
-  box-sizing: border-box;
-}
-
-.input:hover {
-  transform: scale(1.1);
-}
-
-.btn {
-  border-radius: 35px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  border: none;
-  transition: transform 0.2s ease;
-}
-
-.btn:hover {
-  transform: scale(1.1);
-}
-
-.btn--light {
-  background-color: var(--light-color);
-}
-
-.btn--primary {
-  background-color: var(--primary-color);
-}
-
-.btn--secondary {
-  background-color: var(--secondary-color);
 }
 
 /*-----------------------------------------*\
